@@ -5,7 +5,7 @@
   PORTFOLIO - v1
 </h1>
 <p align="center">
-  The first iteration of PORTFOLIO built with React.js leveraging Chakra UI.
+  The first iteration of PORTFOLIO built with React.js leveraging Chakra-UI.
 </p>
 
 
