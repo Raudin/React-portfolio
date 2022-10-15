@@ -18,9 +18,9 @@ function App(){
 
       
       <Spacer></Spacer>
-      <IconButton icon={<FaLinkedin/>} isRound='true' onClick={window.location.href='https://www.linkedin.com/in/mark-muga-74a665111/'}></IconButton>
-      <IconButton ml={2} icon={<FaGithub/>} isRound='true' onClick={window.location.href='https://github.com/Raudin'}></IconButton>
-      <IconButton ml={2}  icon={<FaInstagram/>} isRound='true' onClick={window.location.href='https://instagram.com/marrkmuga'}></IconButton>
+      <IconButton ml={1} icon={<FaLinkedin/>} isRound='true' onClick={()=> window.open("https://www.linkedin.com/in/mark-muga-74a665111/")}> </IconButton> 
+      <IconButton ml={1} icon={<FaGithub/>} isRound='true' onClick={()=> window.open("https://github.com/Raudin")}></IconButton>
+      <IconButton ml={1}  icon={<FaInstagram/>} isRound='true' onClick={()=> window.open("https://instagram.com/marrkmuga")}></IconButton>
       <IconButton ml={6} icon={isDark? <MdLightMode/> : <MdDarkMode/>} isRound="true" onClick={toggleColorMode}></IconButton>
       </Flex>
       <Header></Header>
