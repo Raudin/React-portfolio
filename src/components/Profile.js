@@ -1,4 +1,5 @@
 import React from 'react'
+//Profile page
 
 function Profile() {
   return (
